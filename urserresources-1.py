@@ -20,7 +20,7 @@ class RegisterMember(Resource):
     :param string contact: Member's contact number
     """
     def post(self):
-        if request.headers["Content-Type"] == "application/json":
+        if "application/json" in request.headers["Content-Type"]:
             email = request.json["email"]
             password = request.json["password"]
             username = request.json.get("username")
@@ -157,7 +157,7 @@ class EditMemberInfo(Resource):
     :param string company: The company the member belongs to
     """
     def post(self):
-        if request.headers["Content-Type"] == "application/json":
+        if "application/json" in request.headers["Content-Type"]:
             email = request.json["email"]
             username = request.json.get("username")
             suppliers = request.json.get("suppliers")
@@ -203,7 +203,7 @@ class Member(Resource):
     :param string contact: Member's contact number
     """
     def post(self):
-        if request.headers["Content-Type"] == "application/json":
+        if "application/json" in request.headers["Content-Type"]:
             email = request.json["email"]
             password = request.json["password"]
             username = request.json.get("username")
@@ -276,7 +276,7 @@ class Member(Resource):
     :param string email: Member's email as primary account identifier \n
     """
     def get(self):
-        if request.headers["Content-Type"] == "application/json":
+        if "application/json" in request.headers["Content-Type"]:
                     email = request.json["email"]
         user = User.query.filter_by(email=email).first()
         return {
@@ -305,7 +305,7 @@ class Member(Resource):
                 "message": 'Missing authorization to retrieve content',
             }, 401
 
-        if request.headers["Content-Type"] == "application/json":
+        if "application/json" in request.headers["Content-Type"]:
             email = request.json["email"]
             username = request.json.get("username")
             suppliers = request.json.get("suppliers")
@@ -354,7 +354,7 @@ class LoginMember(Resource):
     :param string password: Member's password
     """
     def post(self):
-        if request.headers["Content-Type"] == "application/json; charset=utf-8" or request.headers["Content-Type"] == "application/json":
+        if "application/json" in request.headers["Content-Type"]:
             email = request.json["email"]
             password = request.json["password"]
             user = user_datastore.find_user(email=email)

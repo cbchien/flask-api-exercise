@@ -1,5 +1,7 @@
-from app import user_datastore
 from flask_security import current_user
+from app import user_datastore
+import datetime
+import ast
 
 def check_member_role(roles, email):
     """Check a member's viewing authorization.
@@ -10,11 +12,21 @@ def check_member_role(roles, email):
     """
     required_roles = roles
     user_roles = user_datastore.find_user(email=email).roles
-    # print('required_roles',required_roles)
-    # print('user_roles',user_roles)
     for user_role in user_roles:
         if user_role in required_roles:
             return True
+    return False
+
+def check_member_supplier(id, email):
+    """Check a member's viewing supplier authorization.
+    return Boolean
+    
+    :param id: id
+    :param email: Email of the person who will perform the action
+    """
+    suppliers = user_datastore.find_user(email=email).suppliers
+    if id in suppliers:
+        return True
     return False
 
 def render_admin_client_structure():
@@ -23,9 +35,12 @@ def render_admin_client_structure():
     """
     admin_structure = {
             "authority":{
-                "user_mgmt": ["main_create_btn", "user_edit_btn", "user_resetpw_btn", "user_disable_btn", "user_ophistory_btn"],
+                "user_mgmt": ["main_create_btn", "user_edit_btn", "user_resetpw_btn", "user_ophistory_btn"],
                 "role_mgmt":["main_create_btn", "role_edit_btn"],
             },
+            "outbound":{
+		        "outbound_orders": ["main_download_btn"],
+	        },
             "somepage":{
                 "some_stuff": ["stuff1", "stuff2"],
             },

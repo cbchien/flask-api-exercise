@@ -1,3 +1,7 @@
 .vscode
+download
 venv
 __pycache__
+app.log
+client
+*.pyc

@@ -4,7 +4,8 @@ from flask_security import UserMixin, RoleMixin
 from sqlalchemy import create_engine
 from sqlalchemy.orm import relationship, backref
 from sqlalchemy import Boolean, DateTime, Column, Integer, \
-                       String, ForeignKey
+                       String, ForeignKey, Text, VARCHAR
+from sqlalchemy.types import JSON, ARRAY
 from werkzeug.security import generate_password_hash, check_password_hash
 
 class RolesUsers(Base):
@@ -38,7 +39,7 @@ class User(Base, UserMixin):
     __tablename__ = 'user'
     id = Column(Integer, primary_key=True)
     email = Column(String(255), unique=True)
-    username = Column(String(255))
+    username = Column(VARCHAR(255))
     password = Column(String(255))
     last_login_at = Column(DateTime(), default=datetime.datetime.now())
     current_login_at = Column(DateTime(), default=datetime.datetime.now())
@@ -47,9 +48,9 @@ class User(Base, UserMixin):
     login_count = Column(Integer, default=1)
     active = Column(Boolean(), default=1)
     contact = Column(String(100))
-    suppliers = Column(JsonEncodedDict) #The compnaies the member handles 
+    address = Column(VARCHAR(255))
+    suppliers = Column(String(255)) #The compnaies the member handles 
     company = Column(String(255)) #The compnay the member works for 
-    content = Column(JsonEncodedDict)
     confirmed_at = Column(DateTime(), default=datetime.datetime.now()) # Saved for future Approval functionality
     roles = relationship('Role', secondary='roles_users',
                          backref=backref('user', lazy='dynamic'))
@@ -57,13 +58,23 @@ class User(Base, UserMixin):
     def __repr__(self):
         return '%r %r' %(self.email, self.login_count)
 
+    def is_authenticated(self):
+        return True
+
+    def is_active(self):
+        return self.active
+
+    def is_anonymous(self):
+        return False
+
     def as_dict(self):
         data = {c.name: getattr(self, c.name) for c in self.__table__.columns}
         del(data["password"])
-        del(data["confirmed_at"])
+        data["confirmed_at"] = str(data["confirmed_at"])
         data["last_login_at"] = str(data["last_login_at"])
         data["current_login_at"] = str(data["current_login_at"])
-        data["roles"] = list(map(lambda x: x.name, self.roles)),
+        data["roles"] = list(map(lambda x: x.name, self.roles))
+
         return data
 
 class Logging(Base):
@@ -95,6 +106,7 @@ class Logging(Base):
     def __repr__(self):
         return '%r %r %r %r %r' %(self.request_remote_addr, self.method, self.scheme, self.full_path, self.status)
 
+# Do not need model for local database. Query data from warehouse_tw db
 class Supplier(Base):
     __tablename__ = 'supplier'
     id = Column(Integer, primary_key=True)
@@ -113,4 +125,27 @@ class Supplier(Base):
     def as_dict(self):
         data = {c.name: getattr(self, c.name) for c in self.__table__.columns}
         del(data["created_at"])
+        return data
+
+class OutboundDownload(Base):
+    __tablename__ = 'outbound_download'
+    id = Column(Integer, primary_key=True)
+    supplier = Column(String(255))
+    start_date = Column(String(255))
+    end_date = Column(String(255))
+    keyword = Column(String(255))
+    filename = Column(String(255))
+    active = Column(Boolean(), default=1)
+    created_at = Column(DateTime(), default=datetime.datetime.now())
+
+    def __init__(self, supplier, start_date, end_date, keyword, filename):
+        self.supplier = supplier
+        self.start_date = start_date
+        self.end_date = end_date
+        self.keyword = keyword
+        self.filename = filename
+
+    def as_dict(self):
+        data = {c.name: getattr(self, c.name) for c in self.__table__.columns}
+        data["created_at"]=str(data["created_at"])
         return data
