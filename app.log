@@ -1,0 +1,322 @@
+[2018-Jun-20 15:45], 127.0.0.1, POST, http, /userlogin?, 404 NOT FOUND, admin@gmail.com, Client error
+[2018-Jun-20 15:46], 127.0.0.1, POST, http, /api/userlogin?, 200 OK, admin@gmail.com, Successfully logged in as admin@gmail.com
+[2018-Jun-20 15:47], 127.0.0.1, POST, http, /register?, 404 NOT FOUND, admin@gmail.com, Client error
+[2018-Jun-20 15:47], 127.0.0.1, POST, http, /api/register?, 200 OK, admin@gmail.com, User user3@gmail.com created.
+[2018-Jun-20 15:48], 127.0.0.1, POST, http, /api/addrole?, 200 OK, admin@gmail.com, user3@gmail.com is assigned with admin role
+[2018-Jun-20 15:49], 127.0.0.1, POST, http, /api/removerole?, 200 OK, admin@gmail.com, user3@gmail.com is removed from admin role
+[2018-Jun-20 15:49], 127.0.0.1, POST, http, /api/removerole?, 200 OK, admin@gmail.com, user3@gmail.com is removed from admin role
+[2018-Jun-20 15:56], 127.0.0.1, POST, http, /api/createnewrole?, 404 NOT FOUND, admin@gmail.com, Check data input
+[2018-Jun-20 15:56], 127.0.0.1, POST, http, /api/createnewrole?, 404 NOT FOUND, admin@gmail.com, Check data input
+[2018-Jun-20 15:57], 127.0.0.1, POST, http, /api/createnewrole?, 200 OK, admin@gmail.com, Get all role
+[2018-Jun-20 15:58], 127.0.0.1, POST, http, /api/createnewrole?, 200 OK, admin@gmail.com, Created new role: cat
+[2018-Jun-20 16:00], 127.0.0.1, POST, http, /api/createnewrole?, 200 OK, admin@gmail.com, Role cat exist in database
+[2018-Jun-20 16:00], 127.0.0.1, POST, http, /api/createnewrole?, 200 OK, admin@gmail.com, Created new role: cat
+[2018-Jun-20 16:00], 127.0.0.1, POST, http, /api/createnewrole?, 200 OK, admin@gmail.com, Created new role: bear
+[2018-Jun-20 16:01], 127.0.0.1, POST, http, /api/createnewrole?, 200 OK, admin@gmail.com, Created new role: bear
+[2018-Jun-20 16:01], 127.0.0.1, POST, http, /api/createnewrole?, 200 OK, admin@gmail.com, Role bear exist in database
+[2018-Jun-20 16:03], 127.0.0.1, POST, http, /api/createnewrole?, 200 OK, admin@gmail.com, Created new role: bear
+[2018-Jun-20 16:04], 127.0.0.1, POST, http, /api/createnewrole?, 200 OK, admin@gmail.com, Created new role: bear
+[2018-Jun-20 16:04], 127.0.0.1, POST, http, /api/createnewrole?, 200 OK, admin@gmail.com, Created new role: cat
+[2018-Jun-20 16:04], 127.0.0.1, POST, http, /api/createnewrole?, 200 OK, admin@gmail.com, Role cat exist in database
+[2018-Jun-20 16:04], 127.0.0.1, POST, http, /api/createnewrole?, 200 OK, admin@gmail.com, Role bear exist in database
+[2018-Jun-20 16:06], 127.0.0.1, POST, http, /api/createnewrole?, 200 OK, admin@gmail.com, Created new role: bear
+[2018-Jun-20 16:06], 127.0.0.1, POST, http, /api/createnewrole?, 200 OK, admin@gmail.com, Created new role: bear
+[2018-Jun-20 16:06], 127.0.0.1, POST, http, /api/createnewrole?, 200 OK, admin@gmail.com, Created new role: cat
+[2018-Jun-20 16:07], 127.0.0.1, POST, http, /api/createnewrole?, 422 UNPROCESSABLE ENTITY, admin@gmail.com, Role cat exist in database
+[2018-Jun-20 16:08], 127.0.0.1, POST, http, /api/createnewrole?, 422 UNPROCESSABLE ENTITY, admin@gmail.com, Role cat exist in database already
+[2018-Jun-20 16:09], 127.0.0.1, GET, http, /login?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 16:09], 127.0.0.1, GET, http, /static/js/main.0724d5a4.js?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 16:09], 127.0.0.1, GET, http, /static/js/login.97cd7759.chunk.js?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 16:09], 127.0.0.1, GET, http, /static/js/main.0724d5a4.js.map?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 16:09], 127.0.0.1, GET, http, /static/media/favicon.ico?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 16:09], 127.0.0.1, GET, http, /static/js/login.97cd7759.chunk.js.map?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 16:09], 127.0.0.1, GET, http, /static/media/service-worker.js?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 16:09], 127.0.0.1, GET, http, /static/media/manifest.json?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 16:09], 127.0.0.1, GET, http, /static/media/service-worker.js?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 16:09], 127.0.0.1, GET, http, /index.html?_sw-precache=8178f7fe6aa268432c811a996937c650, 404 NOT FOUND, AnonymousUser, Client error
+[2018-Jun-20 16:09], 127.0.0.1, GET, http, /static/fonts/fontawesome-webfont.eot?_sw-precache=674f50d287a8c48dc19ba404d20fe713, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 16:09], 127.0.0.1, GET, http, /static/fonts/fontawesome-webfont.ttf?_sw-precache=b06871f281fee6b241d60582ae9369b9, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 16:09], 127.0.0.1, GET, http, /static/fonts/fontawesome-webfont.svg?_sw-precache=912ec66d7572ff821749319396470bde, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 16:09], 127.0.0.1, GET, http, /static/fonts/fontawesome-webfont.woff?_sw-precache=fee66e712a8a08eef5805a46892932ad, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 16:09], 127.0.0.1, GET, http, /static/fonts/ionicons.eot?_sw-precache=19e65b89cee273a249fba4c09b951b74, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 16:09], 127.0.0.1, GET, http, /static/fonts/ionicons.svg?_sw-precache=28df6ee7b407fd8a14b40bc01f4fd3ae, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 16:09], 127.0.0.1, GET, http, /static/fonts/ionicons.ttf?_sw-precache=dd4781d1acc57ba4c4808d1b44301201, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 16:09], 127.0.0.1, GET, http, /static/fonts/ionicons.woff?_sw-precache=2c159d0d05473040b53ec79df8797d32, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 16:09], 127.0.0.1, GET, http, /static/js/login.97cd7759.chunk.js?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 16:09], 127.0.0.1, GET, http, /static/js/about.402d2061.chunk.js?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 16:09], 127.0.0.1, GET, http, /static/js/home.45155356.chunk.js?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 16:09], 127.0.0.1, GET, http, /static/js/main.0724d5a4.js?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 16:09], 127.0.0.1, GET, http, /static/js/sample.535514d0.chunk.js?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 16:09], 127.0.0.1, GET, http, /static/js/userManagement.120c383e.chunk.js?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 16:09], 127.0.0.1, GET, http, /static/media/static/media/favicon.ico?, 404 NOT FOUND, AnonymousUser, Client error
+[2018-Jun-20 16:09], 127.0.0.1, POST, http, /api/userlogin?, 404 NOT FOUND, AnonymousUser, Please check your input type
+[2018-Jun-20 16:11], 127.0.0.1, POST, http, /api/userlogin?, 404 NOT FOUND, AnonymousUser, Please check your input type
+[2018-Jun-20 16:12], 127.0.0.1, POST, http, /api/userlogin?, 401 UNAUTHORIZED, AnonymousUser, Please check your log in credentials for manager@gmail.com
+[2018-Jun-20 16:12], 127.0.0.1, POST, http, /api/userlogin?, 200 OK, manager@gmail.com, Successfully logged in as manager@gmail.com
+[2018-Jun-20 16:12], 127.0.0.1, GET, http, /static/js/home.45155356.chunk.js?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 16:12], 127.0.0.1, GET, http, /static/js/home.45155356.chunk.js.map?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 16:14], 127.0.0.1, POST, http, /api/register?, 200 OK, admin@gmail.com, User user7777@gmail.com created.
+[2018-Jun-20 16:15], 127.0.0.1, GET, http, /logout?, 302 FOUND, AnonymousUser, Undefined message
+[2018-Jun-20 16:15], 127.0.0.1, GET, http, /?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 16:15], 127.0.0.1, GET, http, /static/js/login.97cd7759.chunk.js?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 16:15], 127.0.0.1, GET, http, /static/js/main.0724d5a4.js.map?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 16:15], 127.0.0.1, GET, http, /static/js/home.45155356.chunk.js?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 16:15], 127.0.0.1, GET, http, /static/media/static/media/favicon.ico?, 404 NOT FOUND, AnonymousUser, Client error
+[2018-Jun-20 16:15], 127.0.0.1, GET, http, /static/media/service-worker.js?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 16:15], 127.0.0.1, GET, http, /static/media/service-worker.js?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 16:15], 127.0.0.1, GET, http, /static/js/login.97cd7759.chunk.js.map?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 16:15], 127.0.0.1, GET, http, /index.html?_sw-precache=8178f7fe6aa268432c811a996937c650, 404 NOT FOUND, AnonymousUser, Client error
+[2018-Jun-20 16:15], 127.0.0.1, GET, http, /static/js/home.45155356.chunk.js.map?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 16:15], 127.0.0.1, GET, http, /api/logout?, 404 NOT FOUND, AnonymousUser, Client error
+[2018-Jun-20 16:15], 127.0.0.1, GET, http, /?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 16:15], 127.0.0.1, GET, http, /static/media/static/media/favicon.ico?, 404 NOT FOUND, AnonymousUser, Client error
+[2018-Jun-20 16:15], 127.0.0.1, GET, http, /static/js/login.97cd7759.chunk.js?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 16:15], 127.0.0.1, GET, http, /static/js/main.0724d5a4.js.map?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 16:15], 127.0.0.1, GET, http, /static/js/home.45155356.chunk.js?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 16:15], 127.0.0.1, GET, http, /static/media/service-worker.js?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 16:15], 127.0.0.1, GET, http, /static/js/login.97cd7759.chunk.js.map?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 16:15], 127.0.0.1, GET, http, /static/media/service-worker.js?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 16:15], 127.0.0.1, GET, http, /static/js/home.45155356.chunk.js.map?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 16:15], 127.0.0.1, GET, http, /index.html?_sw-precache=8178f7fe6aa268432c811a996937c650, 404 NOT FOUND, AnonymousUser, Client error
+[2018-Jun-20 16:15], 127.0.0.1, GET, http, /api/userlogout?, 405 METHOD NOT ALLOWED, AnonymousUser, The method is not allowed for the requested URL.
+[2018-Jun-20 16:15], 127.0.0.1, GET, http, /api/userlogout?, 405 METHOD NOT ALLOWED, AnonymousUser, The method is not allowed for the requested URL.
+[2018-Jun-20 16:15], 127.0.0.1, GET, http, /?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 16:15], 127.0.0.1, GET, http, /static/media/static/media/favicon.ico?, 404 NOT FOUND, AnonymousUser, Client error
+[2018-Jun-20 16:15], 127.0.0.1, GET, http, /static/js/login.97cd7759.chunk.js?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 16:15], 127.0.0.1, GET, http, /static/js/main.0724d5a4.js.map?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 16:15], 127.0.0.1, GET, http, /static/js/login.97cd7759.chunk.js.map?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 16:15], 127.0.0.1, GET, http, /static/media/service-worker.js?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 16:15], 127.0.0.1, GET, http, /static/media/service-worker.js?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 16:15], 127.0.0.1, GET, http, /index.html?_sw-precache=8178f7fe6aa268432c811a996937c650, 404 NOT FOUND, AnonymousUser, Client error
+[2018-Jun-20 16:16], 127.0.0.1, POST, http, /api/userlogin?, 200 OK, user7777@gmail.com, Successfully logged in as user7777@gmail.com
+[2018-Jun-20 16:16], 127.0.0.1, GET, http, /static/js/home.45155356.chunk.js?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 16:16], 127.0.0.1, GET, http, /static/js/home.45155356.chunk.js.map?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 16:23], 127.0.0.1, POST, http, /changestatus?, 404 NOT FOUND, admin@gmail.com, Client error
+[2018-Jun-20 16:24], 127.0.0.1, POST, http, /api/changestatus?, 200 OK, admin@gmail.com, Member status for user3@gmail.com is changed to False
+[2018-Jun-20 16:34], 127.0.0.1, POST, http, /editinfo?, 404 NOT FOUND, admin@gmail.com, Client error
+[2018-Jun-20 16:34], 127.0.0.1, POST, http, /api/editinfo?, 200 OK, admin@gmail.com, Update user3@gmail.com member info
+[2018-Jun-20 16:35], 127.0.0.1, POST, http, /api/editinfo?, 200 OK, admin@gmail.com, Update user3@gmail.com member info
+[2018-Jun-20 16:38], 127.0.0.1, GET, http, /api/getalluser?, 200 OK, admin@gmail.com, All active user
+[2018-Jun-20 16:40], 127.0.0.1, POST, http, /api/register?, 200 OK, admin@gmail.com, User user4@gmail.com created.
+[2018-Jun-20 16:41], 127.0.0.1, POST, http, /api/register?, 200 OK, admin@gmail.com, User user5@gmail.com created.
+[2018-Jun-20 16:41], 127.0.0.1, POST, http, /api/register?, 200 OK, admin@gmail.com, User user6@gmail.com created.
+[2018-Jun-20 16:45], 127.0.0.1, POST, http, /api/register?, 200 OK, admin@gmail.com, User user7@gmail.com created.
+[2018-Jun-20 16:45], 127.0.0.1, POST, http, /api/register?, 200 OK, admin@gmail.com, User user7@gmail.com created.
+[2018-Jun-20 17:09], 127.0.0.1, POST, http, /api/register?, 200 OK, admin@gmail.com, User user7@gmail.com created.
+[2018-Jun-20 17:15], 127.0.0.1, POST, http, /api/register?, 200 OK, admin@gmail.com, User user4@gmail.com created.
+[2018-Jun-20 17:15], 127.0.0.1, POST, http, /api/register?, 200 OK, admin@gmail.com, User user5@gmail.com created.
+[2018-Jun-20 17:30], 127.0.0.1, POST, http, /api/register?, 200 OK, admin@gmail.com, User user3@gmail.com created.
+[2018-Jun-20 17:34], 127.0.0.1, POST, http, /api/register?, 200 OK, admin@gmail.com, User user4@gmail.com created.
+[2018-Jun-20 17:35], 127.0.0.1, POST, http, /api/register?, 200 OK, admin@gmail.com, User user5@gmail.com created.
+[2018-Jun-20 17:41], 127.0.0.1, POST, http, /api/userlogin?, 404 NOT FOUND, admin@gmail.com, Please check your input type
+[2018-Jun-20 17:43], 127.0.0.1, POST, http, /api/userlogin?, 200 OK, user5@gmail.com, Successfully logged in as user5@gmail.com
+[2018-Jun-20 17:44], 127.0.0.1, POST, http, /api/userlogin?, 200 OK, user5@gmail.com, Successfully logged in as user5@gmail.com
+[2018-Jun-20 17:46], 127.0.0.1, POST, http, /api/userlogin?, 200 OK, user5@gmail.com, Successfully logged in as user5@gmail.com
+[2018-Jun-20 17:47], 127.0.0.1, POST, http, /api/userlogin?, 200 OK, user5@gmail.com, Successfully logged in as user5@gmail.com
+[2018-Jun-20 17:48], 127.0.0.1, POST, http, /api/userlogin?, 200 OK, user5@gmail.com, Successfully logged in as user5@gmail.com
+[2018-Jun-20 17:48], 127.0.0.1, POST, http, /api/userlogin?, 200 OK, user5@gmail.com, Successfully logged in as user5@gmail.com
+[2018-Jun-20 17:48], 127.0.0.1, POST, http, /api/userlogin?, 200 OK, user5@gmail.com, Successfully logged in as user5@gmail.com
+[2018-Jun-20 17:49], 127.0.0.1, POST, http, /api/userlogin?, 200 OK, user5@gmail.com, Successfully logged in as user5@gmail.com
+[2018-Jun-20 17:49], 127.0.0.1, POST, http, /api/userlogin?, 200 OK, user5@gmail.com, Successfully logged in as user5@gmail.com
+[2018-Jun-20 17:54], 127.0.0.1, POST, http, /api/userlogin?, 200 OK, user5@gmail.com, Successfully logged in as user5@gmail.com
+[2018-Jun-20 17:55], 127.0.0.1, POST, http, /api/userlogin?, 200 OK, user5@gmail.com, Successfully logged in as user5@gmail.com
+[2018-Jun-20 17:56], 127.0.0.1, POST, http, /api/register?, 200 OK, user5@gmail.com, User user6@gmail.com created.
+[2018-Jun-20 17:56], 127.0.0.1, POST, http, /api/userlogin?, 200 OK, user6@gmail.com, Successfully logged in as user6@gmail.com
+[2018-Jun-20 18:02], 127.0.0.1, POST, http, /api/register?, 200 OK, user6@gmail.com, User user7@gmail.com created.
+[2018-Jun-20 18:08], 127.0.0.1, POST, http, /api/register?, 422 UNPROCESSABLE ENTITY, user6@gmail.com, User user3@gmail.com exist. Please login
+[2018-Jun-20 18:08], 127.0.0.1, POST, http, /api/register?, 200 OK, user6@gmail.com, User user9@gmail.com created.
+[2018-Jun-20 18:09], 127.0.0.1, POST, http, /api/register?, 200 OK, user6@gmail.com, User user10@gmail.com created.
+[2018-Jun-20 18:10], 127.0.0.1, POST, http, /api/userlogin?, 200 OK, user10@gmail.com, Successfully logged in as user10@gmail.com
+[2018-Jun-20 18:15], 127.0.0.1, POST, http, /changepassword?, 404 NOT FOUND, user10@gmail.com, Client error
+[2018-Jun-20 18:15], 127.0.0.1, POST, http, /api/changepassword?, 200 OK, user10@gmail.com, Member password for user3@gmail.com has been updated
+[2018-Jun-20 18:15], 127.0.0.1, POST, http, /api/changepassword?, 200 OK, user10@gmail.com, Member password for user3@gmail.com has been updated
+[2018-Jun-20 18:15], 127.0.0.1, POST, http, /api/userlogin?, 200 OK, admin@gmail.com, Successfully logged in as admin@gmail.com
+[2018-Jun-20 18:16], 127.0.0.1, POST, http, /api/changestatus?, 200 OK, admin@gmail.com, Member status for user3@gmail.com is changed to False
+[2018-Jun-20 18:16], 127.0.0.1, POST, http, /api/changestatus?, 200 OK, admin@gmail.com, Member status for user3@gmail.com is changed to True
+[2018-Jun-20 18:17], 127.0.0.1, POST, http, /api/editinfo?, 200 OK, admin@gmail.com, Update user3@gmail.com member info
+[2018-Jun-20 18:18], 127.0.0.1, POST, http, /api/editinfo?, 200 OK, admin@gmail.com, Update user10@gmail.com member info
+[2018-Jun-20 18:18], 127.0.0.1, POST, http, /api/editinfo?, 404 NOT FOUND, admin@gmail.com, Check header and data type
+[2018-Jun-20 18:19], 127.0.0.1, POST, http, /api/userlogout?, 200 OK, AnonymousUser, Successfully logged out
+[2018-Jun-20 18:19], 127.0.0.1, POST, http, /api/userlogin?, 200 OK, admin@gmail.com, Successfully logged in as admin@gmail.com
+[2018-Jun-20 18:20], 127.0.0.1, GET, http, /api/getalluser?, 200 OK, admin@gmail.com, All active user
+[2018-Jun-20 18:21], 127.0.0.1, POST, http, /getopshistory?, 404 NOT FOUND, admin@gmail.com, Client error
+[2018-Jun-20 18:21], 127.0.0.1, POST, http, /api/getopshistory?, 200 OK, admin@gmail.com, Ops history for user3@gmail.com
+[2018-Jun-20 18:21], 127.0.0.1, POST, http, /api/getopshistory?, 200 OK, admin@gmail.com, Ops history for admin@gmail.com
+[2018-Jun-20 18:24], 127.0.0.1, GET, http, /?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:24], 127.0.0.1, GET, http, /static/js/main.42b4f5d1.js?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:24], 127.0.0.1, GET, http, /static/js/login.ec222fc0.chunk.js?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:24], 127.0.0.1, GET, http, /static/js/main.42b4f5d1.js.map?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:24], 127.0.0.1, GET, http, /static/web/favicon.ico?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:24], 127.0.0.1, GET, http, /static/web/service-worker.js?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:24], 127.0.0.1, GET, http, /static/js/login.ec222fc0.chunk.js.map?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:24], 127.0.0.1, GET, http, /static/web/manifest.json?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:24], 127.0.0.1, GET, http, /static/web/service-worker.js?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:24], 127.0.0.1, GET, http, /index.html?_sw-precache=006ee3c41a52afa8e2c7faf3ed570673, 404 NOT FOUND, AnonymousUser, Client error
+[2018-Jun-20 18:24], 127.0.0.1, GET, http, /static/fonts/fontawesome-webfont.eot?_sw-precache=674f50d287a8c48dc19ba404d20fe713, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:24], 127.0.0.1, GET, http, /static/fonts/fontawesome-webfont.ttf?_sw-precache=b06871f281fee6b241d60582ae9369b9, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:24], 127.0.0.1, GET, http, /static/fonts/fontawesome-webfont.svg?_sw-precache=912ec66d7572ff821749319396470bde, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:24], 127.0.0.1, GET, http, /static/fonts/fontawesome-webfont.woff?_sw-precache=fee66e712a8a08eef5805a46892932ad, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:24], 127.0.0.1, GET, http, /static/fonts/ionicons.eot?_sw-precache=19e65b89cee273a249fba4c09b951b74, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:24], 127.0.0.1, GET, http, /static/fonts/ionicons.svg?_sw-precache=28df6ee7b407fd8a14b40bc01f4fd3ae, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:24], 127.0.0.1, GET, http, /static/fonts/ionicons.ttf?_sw-precache=dd4781d1acc57ba4c4808d1b44301201, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:24], 127.0.0.1, GET, http, /static/fonts/ionicons.woff?_sw-precache=2c159d0d05473040b53ec79df8797d32, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:24], 127.0.0.1, GET, http, /static/js/about.a82c8d7a.chunk.js?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:24], 127.0.0.1, GET, http, /static/js/sample.57b2eb6f.chunk.js?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:24], 127.0.0.1, GET, http, /static/js/userManagement.d77fb733.chunk.js?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:24], 127.0.0.1, GET, http, /static/web/static/media/favicon.ico?, 404 NOT FOUND, AnonymousUser, Client error
+[2018-Jun-20 18:25], 127.0.0.1, GET, http, /?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:25], 127.0.0.1, GET, http, /static/css/main.adbab8a4.css?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:25], 127.0.0.1, GET, http, /static/js/main.42b4f5d1.js?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:25], 127.0.0.1, GET, http, /static/js/login.ec222fc0.chunk.js?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:25], 127.0.0.1, GET, http, /static/media/Shopee-700x217.69f2b03c.svg?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:25], 127.0.0.1, GET, http, /static/web/service-worker.js?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:25], 127.0.0.1, GET, http, /static/web/service-worker.js?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:25], 127.0.0.1, GET, http, /index.html?_sw-precache=006ee3c41a52afa8e2c7faf3ed570673, 404 NOT FOUND, AnonymousUser, Client error
+[2018-Jun-20 18:25], 127.0.0.1, GET, http, /static/fonts/fontawesome-webfont.eot?_sw-precache=674f50d287a8c48dc19ba404d20fe713, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:25], 127.0.0.1, GET, http, /static/fonts/fontawesome-webfont.svg?_sw-precache=912ec66d7572ff821749319396470bde, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:25], 127.0.0.1, GET, http, /static/fonts/fontawesome-webfont.ttf?_sw-precache=b06871f281fee6b241d60582ae9369b9, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:25], 127.0.0.1, GET, http, /static/fonts/fontawesome-webfont.woff?_sw-precache=fee66e712a8a08eef5805a46892932ad, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:25], 127.0.0.1, GET, http, /static/fonts/ionicons.eot?_sw-precache=19e65b89cee273a249fba4c09b951b74, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:25], 127.0.0.1, POST, http, /api/userlogin?, 200 OK, manager@gmail.com, Successfully logged in as manager@gmail.com
+[2018-Jun-20 18:25], 127.0.0.1, GET, http, /static/js/home.45155356.chunk.js?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:25], 127.0.0.1, GET, http, /static/js/main.42b4f5d1.js.map?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:25], 127.0.0.1, GET, http, /static/js/login.ec222fc0.chunk.js.map?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:25], 127.0.0.1, GET, http, /static/js/home.45155356.chunk.js.map?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:25], 127.0.0.1, GET, http, /static/css/main.adbab8a4.css.map?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:25], 127.0.0.1, GET, http, /logout?, 302 FOUND, AnonymousUser, Undefined message
+[2018-Jun-20 18:25], 127.0.0.1, GET, http, /?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:25], 127.0.0.1, GET, http, /?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:25], 127.0.0.1, GET, http, /static/web/service-worker.js?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:25], 127.0.0.1, GET, http, /index.html?_sw-precache=006ee3c41a52afa8e2c7faf3ed570673, 404 NOT FOUND, AnonymousUser, Client error
+[2018-Jun-20 18:25], 127.0.0.1, GET, http, /static/fonts/fontawesome-webfont.svg?_sw-precache=912ec66d7572ff821749319396470bde, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:25], 127.0.0.1, GET, http, /static/fonts/fontawesome-webfont.eot?_sw-precache=674f50d287a8c48dc19ba404d20fe713, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:25], 127.0.0.1, GET, http, /static/fonts/fontawesome-webfont.ttf?_sw-precache=b06871f281fee6b241d60582ae9369b9, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:25], 127.0.0.1, GET, http, /static/fonts/fontawesome-webfont.woff?_sw-precache=fee66e712a8a08eef5805a46892932ad, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:25], 127.0.0.1, GET, http, /static/fonts/ionicons.eot?_sw-precache=19e65b89cee273a249fba4c09b951b74, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:25], 127.0.0.1, GET, http, /static/fonts/ionicons.svg?_sw-precache=28df6ee7b407fd8a14b40bc01f4fd3ae, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:25], 127.0.0.1, GET, http, /static/fonts/ionicons.ttf?_sw-precache=dd4781d1acc57ba4c4808d1b44301201, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:25], 127.0.0.1, GET, http, /static/fonts/ionicons.woff?_sw-precache=2c159d0d05473040b53ec79df8797d32, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:25], 127.0.0.1, GET, http, /static/js/about.a82c8d7a.chunk.js?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:25], 127.0.0.1, GET, http, /static/js/sample.57b2eb6f.chunk.js?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:25], 127.0.0.1, GET, http, /static/js/userManagement.d77fb733.chunk.js?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:26], 127.0.0.1, GET, http, /static/web/service-worker.js?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:26], 127.0.0.1, GET, http, /index.html?_sw-precache=006ee3c41a52afa8e2c7faf3ed570673, 404 NOT FOUND, AnonymousUser, Client error
+[2018-Jun-20 18:26], 127.0.0.1, POST, http, /api/userlogin?, 200 OK, user10@gmail.com, Successfully logged in as user10@gmail.com
+[2018-Jun-20 18:26], 127.0.0.1, GET, http, /static/fonts/ionicons.ttf?v=2.0.1, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:26], 127.0.0.1, GET, http, /static/fonts/fontawesome-webfont.woff2?v=4.7.0, 404 NOT FOUND, AnonymousUser, Client error
+[2018-Jun-20 18:26], 127.0.0.1, GET, http, /static/fonts/fontawesome-webfont.woff?v=4.7.0, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:32], 127.0.0.1, POST, http, /api/createnewrole?, 200 OK, admin@gmail.com, Created new role: bear
+[2018-Jun-20 18:36], 127.0.0.1, GET, http, /logout?, 302 FOUND, AnonymousUser, Undefined message
+[2018-Jun-20 18:36], 127.0.0.1, GET, http, /?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:36], 127.0.0.1, GET, http, /static/fonts/fontawesome-webfont.woff2?v=4.7.0, 404 NOT FOUND, AnonymousUser, Client error
+[2018-Jun-20 18:36], 127.0.0.1, GET, http, /static/web/service-worker.js?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:36], 127.0.0.1, GET, http, /index.html?_sw-precache=006ee3c41a52afa8e2c7faf3ed570673, 404 NOT FOUND, AnonymousUser, Client error
+[2018-Jun-20 18:37], 127.0.0.1, GET, http, /logout?, 302 FOUND, AnonymousUser, Undefined message
+[2018-Jun-20 18:37], 127.0.0.1, GET, http, /?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:37], 127.0.0.1, GET, http, /static/fonts/fontawesome-webfont.woff2?v=4.7.0, 404 NOT FOUND, AnonymousUser, Client error
+[2018-Jun-20 18:37], 127.0.0.1, GET, http, /static/web/service-worker.js?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:37], 127.0.0.1, GET, http, /index.html?_sw-precache=006ee3c41a52afa8e2c7faf3ed570673, 404 NOT FOUND, AnonymousUser, Client error
+[2018-Jun-20 18:37], 127.0.0.1, GET, http, /?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:37], 127.0.0.1, GET, http, /static/css/main.adbab8a4.css?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:37], 127.0.0.1, GET, http, /static/js/main.42b4f5d1.js?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:37], 127.0.0.1, GET, http, /static/js/login.ec222fc0.chunk.js?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:37], 127.0.0.1, GET, http, /static/media/Shopee-700x217.69f2b03c.svg?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:37], 127.0.0.1, GET, http, /static/web/service-worker.js?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:37], 127.0.0.1, GET, http, /static/web/service-worker.js?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:37], 127.0.0.1, GET, http, /index.html?_sw-precache=006ee3c41a52afa8e2c7faf3ed570673, 404 NOT FOUND, AnonymousUser, Client error
+[2018-Jun-20 18:37], 127.0.0.1, GET, http, /static/fonts/fontawesome-webfont.eot?_sw-precache=674f50d287a8c48dc19ba404d20fe713, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:37], 127.0.0.1, GET, http, /static/fonts/fontawesome-webfont.svg?_sw-precache=912ec66d7572ff821749319396470bde, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:37], 127.0.0.1, GET, http, /static/fonts/fontawesome-webfont.ttf?_sw-precache=b06871f281fee6b241d60582ae9369b9, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:37], 127.0.0.1, GET, http, /static/fonts/fontawesome-webfont.woff?_sw-precache=fee66e712a8a08eef5805a46892932ad, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:37], 127.0.0.1, GET, http, /static/fonts/ionicons.eot?_sw-precache=19e65b89cee273a249fba4c09b951b74, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:37], 127.0.0.1, POST, http, /api/userlogin?, 401 UNAUTHORIZED, AnonymousUser, Please check your log in credentials for user10@gmail.com
+[2018-Jun-20 18:37], 127.0.0.1, POST, http, /api/userlogin?, 200 OK, user10@gmail.com, Successfully logged in as user10@gmail.com
+[2018-Jun-20 18:37], 127.0.0.1, GET, http, /static/fonts/fontawesome-webfont.woff2?v=4.7.0, 404 NOT FOUND, AnonymousUser, Client error
+[2018-Jun-20 18:37], 127.0.0.1, GET, http, /static/fonts/ionicons.ttf?v=2.0.1, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:37], 127.0.0.1, GET, http, /static/js/home.45155356.chunk.js?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:37], 127.0.0.1, GET, http, /static/fonts/fontawesome-webfont.woff?v=4.7.0, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:38], 127.0.0.1, GET, http, /?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:38], 127.0.0.1, GET, http, /static/web/service-worker.js?, 200 OK, AnonymousUser, Undefined message
+[2018-Jun-20 18:38], 127.0.0.1, GET, http, /index.html?_sw-precache=006ee3c41a52afa8e2c7faf3ed570673, 404 NOT FOUND, AnonymousUser, Client error
+[2018-Jun-20 18:39], 127.0.0.1, POST, http, /api/createnewrole?, 422 UNPROCESSABLE ENTITY, admin@gmail.com, Role bear exist in database already
+[2018-Jun-20 18:41], 127.0.0.1, POST, http, /api/createnewrole?, 200 OK, admin@gmail.com, Created new role: cat
+[2018-Jun-20 18:51], 127.0.0.1, POST, http, /api/createnewrole?, 200 OK, admin@gmail.com, Created new role: cat
+[2018-Jun-20 18:51], 127.0.0.1, POST, http, /api/createnewrole?, 200 OK, admin@gmail.com, Created new role: cat
+[2018-Jun-20 18:54], 127.0.0.1, POST, http, /api/createnewrole?, 200 OK, admin@gmail.com, Created new role: cat3
+[2018-Jun-20 18:54], 127.0.0.1, POST, http, /api/createnewrole?, 200 OK, admin@gmail.com, Created new role: cat4
+[2018-Jun-20 18:55], 127.0.0.1, POST, http, /api/createnewrole?, 200 OK, admin@gmail.com, Created new role: Lion
+[2018-Jun-20 18:55], 127.0.0.1, GET, http, /api/getallrole?, 200 OK, admin@gmail.com, Get all role
+[2018-Jun-20 18:56], 127.0.0.1, GET, http, /api/getallroles?, 404 NOT FOUND, admin@gmail.com, Client error
+[2018-Jun-20 18:56], 127.0.0.1, GET, http, /api/getallroles?, 200 OK, admin@gmail.com, Get all role
+[2018-Jun-20 18:57], 127.0.0.1, POST, http, /api/addrole?, 200 OK, admin@gmail.com, user3@gmail.com is assigned with admin role
+[2018-Jun-20 18:57], 127.0.0.1, POST, http, /api/removerole?, 200 OK, admin@gmail.com, user3@gmail.com is removed from admin role
+[2018-Jun-26 09:59], 127.0.0.1, POST, http, /api/userlogin?, 200 OK, admin@gmail.com, Successfully logged in as admin@gmail.com
+[2018-Jun-26 09:59], 127.0.0.1, POST, http, /api/userlogin?, 200 OK, admin@gmail.com, Successfully logged in as admin@gmail.com
+[2018-Jun-26 09:59], 127.0.0.1, POST, http, /api/userlogin?, 200 OK, admin@gmail.com, Successfully logged in as admin@gmail.com
+[2018-Jun-26 09:59], 127.0.0.1, GET, http, /api/member?, 400 BAD REQUEST, admin@gmail.com, Failed to decode JSON object: Expecting value: line 1 column 1 (char 0)
+[2018-Jun-26 10:14], 127.0.0.1, GET, http, /api/member/?, 404 NOT FOUND, admin@gmail.com, Client error
+[2018-Jun-26 10:14], 127.0.0.1, GET, http, /api/member/?, 404 NOT FOUND, admin@gmail.com, Client error
+[2018-Jun-26 10:14], 127.0.0.1, GET, http, /api/member/?, 404 NOT FOUND, admin@gmail.com, Client error
+[2018-Jun-26 10:15], 127.0.0.1, GET, http, /api/member/?, 404 NOT FOUND, admin@gmail.com, Client error
+[2018-Jun-26 10:15], 127.0.0.1, GET, http, /api/member/?, 404 NOT FOUND, admin@gmail.com, Client error
+[2018-Jun-26 10:16], 127.0.0.1, GET, http, /api/member?, 200 OK, admin@gmail.com, All active user
+[2018-Jun-26 10:21], 127.0.0.1, GET, http, /a?, 200 OK, admin@gmail.com, None
+[2018-Jun-26 10:21], 127.0.0.1, GET, http, /admin@gmail.com?, 200 OK, admin@gmail.com, None
+[2018-Jun-26 10:26], 127.0.0.1, GET, http, /admin@gmail.com?, 200 OK, admin@gmail.com, None
+[2018-Jun-26 10:26], 127.0.0.1, GET, http, /admin@gmail.com?, 200 OK, admin@gmail.com, None
+[2018-Jun-26 10:26], 127.0.0.1, GET, http, /admin@gmail.com?, 200 OK, admin@gmail.com, None
+[2018-Jun-26 10:29], 127.0.0.1, GET, http, /1?, 200 OK, admin@gmail.com, None
+[2018-Jun-26 10:29], 127.0.0.1, GET, http, /2?, 200 OK, admin@gmail.com, None
+[2018-Jun-26 10:39], 127.0.0.1, GET, http, /api/member/1?, 200 OK, admin@gmail.com, None
+[2018-Jun-26 10:40], 127.0.0.1, GET, http, /api/member/2?, 200 OK, admin@gmail.com, None
+[2018-Jun-26 10:40], 127.0.0.1, GET, http, /api/member/2?, 200 OK, admin@gmail.com, 2 User information for manager@gmail.com
+[2018-Jun-26 10:42], 127.0.0.1, GET, http, /api/member/2?, 200 OK, admin@gmail.com, User id: 2 for manager@gmail.com
+[2018-Jun-26 10:42], 127.0.0.1, GET, http, /api/member/2?, 200 OK, admin@gmail.com, User id: 2 - manager@gmail.com
+[2018-Jun-26 10:45], 127.0.0.1, PUT, http, /api/member/3?, 200 OK, admin@gmail.com, Update 3 member (user1@gmail.com) info
+[2018-Jun-26 10:45], 127.0.0.1, PUT, http, /api/member/3?, 200 OK, admin@gmail.com, Update member(id: 3) info
+[2018-Jun-26 10:46], 127.0.0.1, PUT, http, /api/member/3?, 200 OK, admin@gmail.com, Update user1@gmail.com(id: 3) info
+[2018-Jun-26 10:46], 127.0.0.1, PUT, http, /api/member/3?, 200 OK, admin@gmail.com, Update user1@gmail.com(id: 3) info
+[2018-Jun-26 10:46], 127.0.0.1, PUT, http, /api/member/3?, 200 OK, admin@gmail.com, Update user1@gmail.com(id: 3) info
+[2018-Jun-26 10:46], 127.0.0.1, PUT, http, /api/member/3?, 200 OK, admin@gmail.com, Update user1@gmail.com(id: 3) info
+[2018-Jun-26 10:46], 127.0.0.1, PUT, http, /api/member/3?, 200 OK, admin@gmail.com, Update user1@gmail.com(id: 3) info
+[2018-Jun-26 10:47], 127.0.0.1, PUT, http, /api/member/3?, 200 OK, admin@gmail.com, Update user1@gmail.com(id: 3) info
+[2018-Jun-26 11:00], 127.0.0.1, GET, http, /api/opshistory/?, 200 OK, admin@gmail.com, Ops history
+[2018-Jun-26 11:04], 127.0.0.1, PUT, http, /api/member/3?, 200 OK, admin@gmail.com, Update user1@gmail.com(id: 3) info
+[2018-Jun-26 11:04], 127.0.0.1, PUT, http, /api/member/3?, 200 OK, admin@gmail.com, Update user1@gmail.com(id: 3) info
+[2018-Jun-26 11:04], 127.0.0.1, PUT, http, /api/member/3?, 200 OK, admin@gmail.com, Update user1@gmail.com(id: 3) info
+[2018-Jun-26 11:04], 127.0.0.1, PUT, http, /api/member/3?, 400 BAD REQUEST, admin@gmail.com, Failed to decode JSON object: Expecting property name enclosed in double quotes: line 4 column 1 (char 58)
+[2018-Jun-26 11:04], 127.0.0.1, PUT, http, /api/member/3?, 200 OK, admin@gmail.com, Update user1@gmail.com(id: 3) info
+[2018-Jun-26 11:06], 127.0.0.1, GET, http, /api/opshistory/?, 200 OK, admin@gmail.com, Ops history
+[2018-Jun-26 11:10], 127.0.0.1, GET, http, /api/opshistory/5?, 400 BAD REQUEST, admin@gmail.com, Failed to decode JSON object: Expecting value: line 1 column 1 (char 0)
+[2018-Jun-26 11:10], 127.0.0.1, GET, http, /api/opshistory/5?, 400 BAD REQUEST, admin@gmail.com, Failed to decode JSON object: Expecting value: line 1 column 1 (char 0)
+[2018-Jun-26 11:11], 127.0.0.1, GET, http, /api/opshistory/all/5?, 200 OK, admin@gmail.com, Ops history
+[2018-Jun-26 11:11], 127.0.0.1, GET, http, /api/opshistory/all/?, 404 NOT FOUND, admin@gmail.com, Client error
+[2018-Jun-26 11:11], 127.0.0.1, GET, http, /api/opshistory/all?, 400 BAD REQUEST, admin@gmail.com, Failed to decode JSON object: Expecting value: line 1 column 1 (char 0)
+[2018-Jun-26 11:12], 127.0.0.1, GET, http, /api/opshistory/all?, 200 OK, admin@gmail.com, Ops history
+[2018-Jun-26 11:13], 127.0.0.1, GET, http, /api/opshistory/1?, 200 OK, admin@gmail.com, Ops history for admin@gmail.com
+[2018-Jun-26 11:14], 127.0.0.1, GET, http, /api/opshistory/1?, 200 OK, admin@gmail.com, Ops history for admin@gmail.com
+[2018-Jun-26 11:29], 127.0.0.1, GET, http, /api/opshistory/1?, 200 OK, admin@gmail.com, Ops history for admin@gmail.com
+[2018-Jun-26 11:29], 127.0.0.1, GET, http, /api/opshistory/1?, 200 OK, admin@gmail.com, Ops history for admin@gmail.com
+[2018-Jun-26 11:29], 127.0.0.1, PUT, http, /api/member/3?, 200 OK, admin@gmail.com, Update user1@gmail.com(id: 3) info
+[2018-Jun-26 11:29], 127.0.0.1, PUT, http, /api/member/3?, 200 OK, admin@gmail.com, Update user1@gmail.com(id: 3) info
+[2018-Jun-26 11:30], 127.0.0.1, PUT, http, /api/member/3?, 200 OK, admin@gmail.com, Update user1@gmail.com(id: 3) info
+[2018-Jun-26 11:31], 127.0.0.1, PUT, http, /api/member/3?, 200 OK, admin@gmail.com, Update user1@gmail.com(id: 3) info
+[2018-Jun-26 11:37], 127.0.0.1, PUT, http, /api/member/3?, 200 OK, admin@gmail.com, Update user1@gmail.com(id: 3) info
+[2018-Jun-26 11:38], 127.0.0.1, PUT, http, /api/member/3?, 200 OK, admin@gmail.com, Update user1@gmail.com(id: 3) info
+[2018-Jun-26 11:39], 127.0.0.1, PUT, http, /api/member/3?, 200 OK, admin@gmail.com, Update user1@gmail.com(id: 3) info
+[2018-Jun-26 11:39], 127.0.0.1, GET, http, /api/member/3?, 200 OK, admin@gmail.com, User id: 3 - user1@gmail.com
+[2018-Jun-26 11:42], 127.0.0.1, GET, http, /api/member/3?, 200 OK, admin@gmail.com, User id: 3 - user1@gmail.com
+[2018-Jun-26 11:42], 127.0.0.1, GET, http, /api/member/3?, 200 OK, admin@gmail.com, User id: 3 - user1@gmail.com
+[2018-Jun-26 11:43], 127.0.0.1, PUT, http, /api/member/3?, 200 OK, admin@gmail.com, Update user1@gmail.com(id: 3) info
+[2018-Jun-26 11:43], 127.0.0.1, POST, http, /api/removerole?, 200 OK, admin@gmail.com, user1@gmail.com is removed from admin role
+[2018-Jun-26 11:43], 127.0.0.1, GET, http, /api/member/3?, 200 OK, admin@gmail.com, User id: 3 - user1@gmail.com
+[2018-Jun-26 11:58], 127.0.0.1, PUT, http, /api/member/3?, 200 OK, admin@gmail.com, Update user1@gmail.com(id: 3) info
+[2018-Jun-26 11:58], 127.0.0.1, GET, http, /api/member/3?, 200 OK, admin@gmail.com, User id: 3 - user1@gmail.com
+[2018-Jun-26 12:00], 127.0.0.1, PUT, http, /api/member/3?, 200 OK, admin@gmail.com, Update user1@gmail.com(id: 3) info
+[2018-Jun-26 12:01], 127.0.0.1, PUT, http, /api/member/3?, 200 OK, admin@gmail.com, Update user1@gmail.com(id: 3) info
+[2018-Jun-26 12:12], 127.0.0.1, PUT, http, /api/member/3?, 200 OK, admin@gmail.com, Update user1@gmail.com(id: 3) info
+[2018-Jun-26 12:16], 127.0.0.1, GET, http, /api/member/3?, 200 OK, admin@gmail.com, User id: 3 - user1@gmail.com
+[2018-Jun-26 13:58], 127.0.0.1, GET, http, /api/member?, 200 OK, admin@gmail.com, All active user
+[2018-Jun-26 14:06], 127.0.0.1, GET, http, /api/member?, 200 OK, admin@gmail.com, All active user
+[2018-Jun-26 14:07], 127.0.0.1, PUT, http, /api/member/4?, 200 OK, admin@gmail.com, Update user2@gmail.com(id: 4) info
+[2018-Jun-26 14:07], 127.0.0.1, GET, http, /api/member?, 200 OK, admin@gmail.com, All active user
